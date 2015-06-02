@@ -141,3 +141,8 @@ i.fa.fa-glass {
 .contact_page {
   font-size: 2rem;
 }
+
+.page--wines img {
+  width: 20px;
+  height: 20px;
+}
