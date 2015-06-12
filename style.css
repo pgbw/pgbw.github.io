@@ -142,7 +142,8 @@ i.fa.fa-glass {
   font-size: 2rem;
 }
 
-.page--wines img {
+.page--wines .wine-list img {
   width: 25px;
   height: 25px;
+  margin-top: -11px;
 }
