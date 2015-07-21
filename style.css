@@ -148,6 +148,11 @@ i.fa.fa-glass {
   margin-top: -11px;
 }
 
+.page--contact input,
+.page--contact button {
+  width: 80%;
+}
+
 
 iframe {
   width: 95%;
