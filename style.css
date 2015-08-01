@@ -153,6 +153,10 @@ i.fa.fa-glass {
   width: 80%;
 }
 
+.icon {
+  width: 32px;
+  height: 32px;
+}
 
 iframe {
   width: 95%;
