@@ -156,6 +156,7 @@ i.fa.fa-glass {
 .icon {
   width: 32px;
   height: 32px;
+  margin-top: -5px;
 }
 
 iframe {
