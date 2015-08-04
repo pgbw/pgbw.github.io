@@ -134,8 +134,10 @@ strong > h1 {
   }
 }
 
-i.fa.fa-glass {
+i.fa {
   margin-right: 10px;
+  margin-left: 10px;
+  font-size: 4rem;
 }
 
 .contact_page {
