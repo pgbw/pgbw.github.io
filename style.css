@@ -92,6 +92,7 @@ body {
 .btn--vino:hover {
   background-color: #A08AAF;
   border-color: #493F50;
+  color: #ffffff;
 }
 
 /***********************************************/
