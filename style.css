@@ -124,14 +124,14 @@ strong {
   font-size: 2.5rem;
   font-weight: 400;
 }
-strong > h1 {
+h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 5rem;
   font-weight: 400;
 }
 
 @media (min-width: 76rem) {
-  strong > h1 {
+  h1 {
     font-size: 9rem;
   }
 }
