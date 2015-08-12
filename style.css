@@ -157,6 +157,13 @@ i.fa {
   width: 90%;
 }
 
+.button {
+  text-decoration: none;
+}
+.button:hover {
+  text-decoration: none;
+}
+
 .icon {
   width: 32px;
   height: 32px;
