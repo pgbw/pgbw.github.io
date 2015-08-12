@@ -84,12 +84,12 @@ body {
 
 
 /* my css */
-.btn--vino {
+.btn--vino, .button {
   background-color: #493F50;
   border-color: #BEA4D0;
   color: #ffffff;
 }
-.btn--vino:hover {
+.btn--vino:hover, .button:hover {
   background-color: #A08AAF;
   border-color: #493F50;
   color: #ffffff;
