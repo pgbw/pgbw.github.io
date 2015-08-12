@@ -85,14 +85,14 @@ body {
 
 /* my css */
 .btn--vino, .button {
-  background-color: #493F50;
-  border-color: #BEA4D0;
-  color: #ffffff;
+  background-color: #493F50 !important;
+  border-color: #BEA4D0 !important;
+  color: #ffffff !important;
 }
 .btn--vino:hover, .button:hover {
-  background-color: #A08AAF;
-  border-color: #493F50;
-  color: #ffffff;
+  background-color: #A08AAF !important;
+  border-color: #493F50 !important;
+  color: #ffffff !important;
 }
 
 /***********************************************/
