@@ -110,6 +110,8 @@ body {
 
 /* my css */
 
+
+
 .btn--vino,
 .button {
   background-color: #493F50 !important;
@@ -242,3 +244,13 @@ iframe {
   margin-right: 10px;
   display: inline;
 }
+
+@media (max-width: 76rem) {
+  .masthead {
+    margin-top: 20rem;
+  }
+  .fareharbor__btn {
+    width: 100px;
+  }
+}
+
