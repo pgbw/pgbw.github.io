@@ -1,9 +1,9 @@
-
 /* divshot css */
 
 body {
   padding-top: 20px;
 }
+
 .footer {
   border-top: 1px solid #eeeeee;
   margin-top: 40px;
@@ -11,20 +11,27 @@ body {
   padding-bottom: 40px;
 }
 
+
 /* Main marketing message and sign up button */
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
 }
+
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
 }
+
+
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
+
 .nav-justified {
   border-radius: 5px;
   border: 1px solid #cccccc;
 }
+
 .nav-justified > li > a {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -32,7 +39,8 @@ body {
   font-weight: bold;
   text-align: center;
   border-bottom: 1px solid #d5d5d5;
-  background-color: #493F50; /*8C1F4E 4D112B*/
+  background-color: #493F50;
+  /*8C1F4E 4D112B*/
 }
 
 @media (max-width: 76rem) {
@@ -41,21 +49,29 @@ body {
   }
 }
 
-.nav-justified > .active > a, .nav-justified > .active > a:hover, .nav-justified > .active > a:focus,
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus,
 .nav > li > a:hover {
   background-color: #A08AAF;
   background-image: none;
 }
-.nav-justified > .active > a, .nav-justified > .active > a:hover, .nav-justified > .active > a:focus {
+
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
   box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.25);
 }
+
 .nav-justified > li:first-child > a {
   border-radius: 5px 5px 0 0;
 }
+
 .nav-justified > li:last-child > a {
   border-bottom: 0;
   border-radius: 0 0 5px 5px;
 }
+
 @media(min-width: 768px) {
   .nav-justified {
     max-height: 52px;
@@ -73,10 +89,15 @@ body {
     border-right: 0;
   }
 }
+
+
 /* Responsive: Portrait tablets and up */
+
 @media screen and(min-width: 768px) {
   /* Remove the padding we set earlier */
-  .masthead, .marketing, .footer {
+  .masthead,
+  .marketing,
+  .footer {
     padding-left: 0;
     padding-right: 0;
   }
@@ -84,28 +105,58 @@ body {
 
 
 /* my css */
-.btn--vino, .button {
+
+.btn--vino,
+.button {
   background-color: #493F50 !important;
   border-color: #BEA4D0 !important;
   color: #ffffff !important;
 }
-.btn--vino:hover, .button:hover {
+
+.btn--vino:hover,
+.button:hover {
   background-color: #A08AAF !important;
   border-color: #493F50 !important;
   color: #ffffff !important;
 }
 
+
 /***********************************************/
+
+
 /* google fonts */
+
+
 /* font-family: 'Raleway', sans-serif; */
+
+
 /* font-family: 'Dancing Script', cursive; */
+
+
 /**** OLD ****/
+
+
 /* font-family: 'League Script', cursive; */
+
+
 /* font-family: 'Pinyon Script', cursive; */
+
+
 /***********************************************/
 
-
-html, body, div, h1, h2, h3, h4, h5, h6, p, span, ul, li {
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -124,6 +175,7 @@ strong {
   font-size: 2.5rem;
   font-weight: 400;
 }
+
 h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 5rem;
@@ -160,6 +212,7 @@ i.fa {
 .button {
   text-decoration: none;
 }
+
 .button:hover {
   text-decoration: none;
 }
@@ -172,4 +225,16 @@ i.fa {
 
 iframe {
   width: 95%;
+}
+
+.event__list {
+  font-size: 125%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.event__list img {
+  width: 15px;
+  margin-right: 10px;
+  display: inline;
 }
