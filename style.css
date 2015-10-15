@@ -245,7 +245,7 @@ iframe {
   display: inline;
 }
 
-@media (max-width: 76rem) {
+@media (max-width: 48rem) {
   .masthead {
     margin-top: 8rem;
   }
