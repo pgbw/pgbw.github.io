@@ -1,4 +1,4 @@
 /* set the copyright year automatically */
-window.onload = function () {
+window.addEventListener('load', function () {
   document.getElementById("footerYear").textContent = new Date().getFullYear();
-};
+});
