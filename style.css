@@ -249,9 +249,13 @@ iframe {
   .masthead {
     margin-top: 8rem;
   }
-  .fareharbor__btn {
-    width: 100px;
-  }
+}
+
+.fareharbor__btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: center;
 }
 
 .fareharbor__btn a.btn.btn--vino {
