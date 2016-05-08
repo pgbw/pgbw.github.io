@@ -210,6 +210,12 @@ i.fa {
   margin-top: -11px;
 }
 
+.wine-type {
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .page--contact input,
 .page--contact button {
   width: 90%;
