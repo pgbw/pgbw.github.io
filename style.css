@@ -1,271 +1,232 @@
 /* divshot css */
-
 body {
-  padding-top: 20px;
+    padding-top: 20px;
 }
 
 .footer {
-  border-top: 1px solid #eeeeee;
-  margin-top: 40px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+    border-top: 1px solid #eeeeee;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-
 
 /* Main marketing message and sign up button */
 
 .jumbotron {
-  text-align: center;
-  background-color: transparent;
+    text-align: center;
+    background-color: transparent;
 }
 
 .jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+    font-size: 21px;
+    padding: 14px 24px;
 }
-
 
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
 
 .nav-justified {
-  border-radius: 5px;
-  border: 1px solid #cccccc;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
 }
 
-.nav-justified > li > a {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  color: #fefefe;
-  font-weight: bold;
-  text-align: center;
-  border-bottom: 1px solid #d5d5d5;
-  background-color: #493F50;
-  /*8C1F4E 4D112B*/
+.nav-justified>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fefefe;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #d5d5d5;
+    background-color: #493F50;
+    /*8C1F4E 4D112B*/
 }
 
 @media (max-width: 76rem) {
-  .nav-justified > li > a {
-    margin-bottom: 0;
-  }
+    .nav-justified>li>a {
+        margin-bottom: 0;
+    }
 }
 
-.nav-justified > .active > a,
-.nav-justified > .active > a:hover,
-.nav-justified > .active > a:focus,
-.nav > li > a:hover {
-  background-color: #A08AAF;
-  background-image: none;
+.nav-justified>.active>a, .nav-justified>.active>a:hover, .nav-justified>.active>a:focus, .nav>li>a:hover {
+    background-color: #A08AAF;
+    background-image: none;
 }
 
-.nav-justified > .active > a,
-.nav-justified > .active > a:hover,
-.nav-justified > .active > a:focus {
-  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.25);
+.nav-justified>.active>a, .nav-justified>.active>a:hover, .nav-justified>.active>a:focus {
+    box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.25);
 }
 
-.nav-justified > li:first-child > a {
-  border-radius: 5px 5px 0 0;
+.nav-justified>li:first-child>a {
+    border-radius: 5px 5px 0 0;
 }
 
-.nav-justified > li:last-child > a {
-  border-bottom: 0;
-  border-radius: 0 0 5px 5px;
+.nav-justified>li:last-child>a {
+    border-bottom: 0;
+    border-radius: 0 0 5px 5px;
 }
 
 @media (min-width: 76rem) {
-  .nav-justified {
-    max-height: 52px;
-  }
-  .nav-justified > li > a {
-    border-left: 1px solid #ffffff;
-    border-right: 1px solid #D5D5D5;
-  }
-  .nav-justified > li:first-child > a {
-    border-left: 0;
-    border-radius: 5px 0 0 5px;
-  }
-  .nav-justified > li:last-child > a {
-    border-radius: 0 5px 5px 0;
-    border-right: 0;
-  }
+    .nav-justified {
+        max-height: 52px;
+    }
+    .nav-justified>li>a {
+        border-left: 1px solid #ffffff;
+        border-right: 1px solid #D5D5D5;
+    }
+    .nav-justified>li:first-child>a {
+        border-left: 0;
+        border-radius: 5px 0 0 5px;
+    }
+    .nav-justified>li:last-child>a {
+        border-radius: 0 5px 5px 0;
+        border-right: 0;
+    }
 }
 
 .masthead .text-center {
-  min-height: 80px;
+    min-height: 80px;
 }
-
 
 /* Responsive: Portrait tablets and up */
 
 @media (min-width: 76rem) {
-  /* Remove the padding we set earlier */
-  .masthead,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
+    /* Remove the padding we set earlier */
+    .masthead, .marketing, .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
-
 
 /* my css */
 
-
-
-.btn--vino,
-.button {
-  background-color: #493F50 !important;
-  border-color: #BEA4D0 !important;
-  color: #ffffff !important;
+.btn--vino, .button {
+    background-color: #493F50 !important;
+    border-color: #BEA4D0 !important;
+    color: #ffffff !important;
 }
 
-.btn--vino:hover,
-.button:hover {
-  background-color: #A08AAF !important;
-  border-color: #493F50 !important;
-  color: #ffffff !important;
+.btn--vino:hover, .button:hover {
+    background-color: #A08AAF !important;
+    border-color: #493F50 !important;
+    color: #ffffff !important;
 }
-
 
 /***********************************************/
-
 
 /* google fonts */
 
-
 /* font-family: 'Raleway', sans-serif; */
-
 
 /* font-family: 'Dancing Script', cursive; */
 
-
 /**** OLD ****/
-
 
 /* font-family: 'League Script', cursive; */
 
-
 /* font-family: 'Pinyon Script', cursive; */
-
 
 /***********************************************/
 
-html,
-body,
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span,
-ul,
-li {
-  font-family: 'Raleway', sans-serif;
+html, body, div, h1, h2, h3, h4, h5, h6, p, span, ul, li {
+    font-family: 'Raleway', sans-serif;
 }
 
 img {
-  width: 95%;
+    width: 95%;
 }
 
 @media (min-width: 76rem) {
-  img {
-    width: 75%;
-  }
+    img {
+        width: 75%;
+    }
 }
 
 strong {
-  font-family: 'Dancing Script', cursive;
-  font-size: 2.5rem;
-  font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    font-weight: 400;
 }
 
 h1 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 5rem;
-  font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    font-weight: 400;
 }
 
 @media (min-width: 76rem) {
-  h1 {
-    font-size: 9rem;
-  }
+    h1 {
+        font-size: 9rem;
+    }
 }
 
 i.fa {
-  margin-right: 10px;
-  margin-left: 10px;
-  font-size: 4rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 4rem;
 }
 
 .contact_page {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .page--wines .wine-list img {
-  width: 25px;
-  height: 25px;
-  margin-top: -11px;
+    width: 25px;
+    height: 25px;
+    margin-top: -11px;
 }
 
 .wine-type {
-  text-decoration: underline;
-  margin-top: 20px;
-  margin-bottom: 20px;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.page--contact input,
-.page--contact button {
-  width: 90%;
+.page--contact input, .page--contact button {
+    width: 90%;
 }
 
 .button {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .button:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .icon {
-  width: 32px;
-  height: 32px;
-  margin-top: -5px;
+    width: 32px;
+    height: 32px;
+    margin-top: -5px;
 }
 
 iframe {
-  width: 95%;
+    width: 95%;
 }
 
 .event__list {
-  font-size: 125%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+    font-size: 125%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .event__list img {
-  width: 15px;
-  margin-right: 10px;
-  display: inline;
+    width: 15px;
+    margin-right: 10px;
+    display: inline;
 }
 
 @media (max-width: 48rem) {
-  .masthead {
-    margin-top: 8rem;
-  }
+    .masthead {
+        margin-top: 8rem;
+    }
 }
 
 .fareharbor__btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
 }
 
 .fareharbor__btn a.btn.btn--vino {
-  background-color: #48939d !important;
+    background-color: #48939d !important;
 }
-
-
