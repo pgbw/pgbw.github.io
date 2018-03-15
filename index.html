@@ -37,7 +37,9 @@
     <div class="container">
 
         <div class="fareharbor__btn">
-            <a class="btn btn--vino" href="https://fareharbor.com/portgardnerbaywinery/" onclick="FH.open({ shortname: 'portgardnerbaywinery', fullItems: 'yes' }); return false;">Book online</a>
+            <a class="btn btn--vino" href="https://fareharbor.com/embeds/book/portgardnerbaywinery/" onclick="return !(window.FH && FH.open({ shortname: 'portgardnerbaywinery', fallback: 'simple', view: 'items' }));">
+                Book now!
+            </a>
         </div>
 
         <div class="masthead">
@@ -118,7 +120,7 @@
 
     <script src="pgbw.js"></script>
 
-    <script src="https://fareharbor.com/embeds/api/v1/"></script>
+    <script src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes"></script>
 
     <div hidden>
         <span id="cdSiteSeal1">
