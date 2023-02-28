@@ -29,37 +29,42 @@ body {
     border: 1px solid #cccccc;
 }
 
-.nav-justified>li>a {
+.nav-justified > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
     color: #fefefe;
     font-weight: bold;
     text-align: center;
     border-bottom: 1px solid #d5d5d5;
-    background-color: #493F50;
+    background-color: #493f50;
     /*8C1F4E 4D112B*/
 }
 
 @media (max-width: 76rem) {
-    .nav-justified>li>a {
+    .nav-justified > li > a {
         margin-bottom: 0;
     }
 }
 
-.nav-justified>.active>a, .nav-justified>.active>a:hover, .nav-justified>.active>a:focus, .nav>li>a:hover {
-    background-color: #A08AAF;
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus,
+.nav > li > a:hover {
+    background-color: #a08aaf;
     background-image: none;
 }
 
-.nav-justified>.active>a, .nav-justified>.active>a:hover, .nav-justified>.active>a:focus {
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
     box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.25);
 }
 
-.nav-justified>li:first-child>a {
+.nav-justified > li:first-child > a {
     border-radius: 5px 5px 0 0;
 }
 
-.nav-justified>li:last-child>a {
+.nav-justified > li:last-child > a {
     border-bottom: 0;
     border-radius: 0 0 5px 5px;
 }
@@ -68,15 +73,15 @@ body {
     .nav-justified {
         max-height: 52px;
     }
-    .nav-justified>li>a {
+    .nav-justified > li > a {
         border-left: 1px solid #ffffff;
-        border-right: 1px solid #D5D5D5;
+        border-right: 1px solid #d5d5d5;
     }
-    .nav-justified>li:first-child>a {
+    .nav-justified > li:first-child > a {
         border-left: 0;
         border-radius: 5px 0 0 5px;
     }
-    .nav-justified>li:last-child>a {
+    .nav-justified > li:last-child > a {
         border-radius: 0 5px 5px 0;
         border-right: 0;
     }
@@ -90,7 +95,9 @@ body {
 
 @media (min-width: 76rem) {
     /* Remove the padding we set earlier */
-    .masthead, .marketing, .footer {
+    .masthead,
+    .marketing,
+    .footer {
         padding-left: 0;
         padding-right: 0;
     }
@@ -98,15 +105,17 @@ body {
 
 /* my css */
 
-.btn--vino, .button {
-    background-color: #493F50 !important;
-    border-color: #BEA4D0 !important;
+.btn--vino,
+.button {
+    background-color: #493f50 !important;
+    border-color: #bea4d0 !important;
     color: #ffffff !important;
 }
 
-.btn--vino:hover, .button:hover {
-    background-color: #A08AAF !important;
-    border-color: #493F50 !important;
+.btn--vino:hover,
+.button:hover {
+    background-color: #a08aaf !important;
+    border-color: #493f50 !important;
     color: #ffffff !important;
 }
 
@@ -126,8 +135,20 @@ body {
 
 /***********************************************/
 
-html, body, div, h1, h2, h3, h4, h5, h6, p, span, ul, li {
-    font-family: 'Raleway', sans-serif;
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li {
+    font-family: "Raleway", sans-serif;
 }
 
 img {
@@ -141,13 +162,13 @@ img {
 }
 
 strong {
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 2.5rem;
     font-weight: 400;
 }
 
 h1 {
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 5rem;
     font-weight: 400;
 }
@@ -180,7 +201,8 @@ i.fa {
     margin-bottom: 20px;
 }
 
-.page--contact input, .page--contact button {
+.page--contact input,
+.page--contact button {
     width: 90%;
 }
 
@@ -218,15 +240,4 @@ iframe {
     .masthead {
         margin-top: 8rem;
     }
-}
-
-.fareharbor__btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    text-align: center;
-}
-
-.fareharbor__btn a.btn.btn--vino {
-    background-color: #48939d !important;
 }
